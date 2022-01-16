@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Link de mi propio CSS -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Practicando bootstrap</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <a href="./index.html" class="row col-md-10 offset-md-1 col-lg-4 offset-lg-0"><img src="./img/fondo.PNG" alt="Logo de la empresa"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contactanos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Market
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./Mercado.html">Base de madera</a></li>
+                                <li><a class="dropdown-item" href="Mercado2.html">Base de hierro</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Mercado3.html">Tipo de tapas</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="container-fluid col-12">
+
+        <h1 class="row col-7 offset-2 col-md-6 offset-md-4 col-lg-4 offset-lg-4 text-danger text-center fst-italic">Tablas de mármol</h1>
+        <br>
+        <div class="row col-12">
+            <div class="card offset-3 col-md-2 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 1.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en cruz</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 2.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro estandar</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 3.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en rectángulo</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 4.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa Madera con base de hierro en doble T</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row col-12">
+            <div class="card offset-3 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 1.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en cruz</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 2.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro estandar</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 3.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en rectángulo</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 4.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa Madera con base de hierro en doble T</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row col-12">
+            <div class="card offset-3 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 1.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en cruz</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 2.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro estandar</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-md-1 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 3.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa CARRARA con base de hierro en rectángulo</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card offset-3 offset-lg-1" style="width: 14rem;">
+                <img src="./img/placa 4.png" class="card-img-top" alt="Mesa 1">
+                <div class="card-body">
+                    <h5 class="card-title">Tapa Madera con base de hierro en doble T</h5>
+                    <p class="card-text">Medidas de 30x40x1,2</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </main>
+
+    <footer class="d-flex justify-content-center bg-danger">
+        <a href="https://web.whatsapp.com/" class=""><img src="./img/whatsapp_icon_138013.png" alt="whatsapp"
+                class="tamaño"></a>
+        <a href="https://www.facebook.com/" class=""><img src="./img/facebook.png" alt="facebook" class="tamaño2"></a>
+        <a href="https://twitter.com/" class=""><img src="./img/twitter.png" alt="twitter" class="tamaño"></a>
+        <a href="https://ar.pinterest.com/" class=""><img src="./img/pinteres.png" alt="pinterest" class="tamaño2"></a>
+    </footer>
+
+    <!-- Script de bootsrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

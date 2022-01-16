@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.achicar{
+    height: 60vh;
+    width: 60vw;
+}
+.achicar2{
+    height: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.achicar3{
+    height: 30vh;
+    transition: 1s;
+   
+}
+.achicar3:hover{
+    height: 44vh;
+    
+}
+.tamaño {
+   
+    height: 7vh;
+    
+}
+
+.tamaño2 {
+    
+    height: 6vh;
+  
+}
+
+.altura{
+    height: 40vh;
+}
+
+@media (max-width: 768px) {
+
+    .achicar{
+        height: 50vh;
+        width: 60vw;
+    }
+    
+}
