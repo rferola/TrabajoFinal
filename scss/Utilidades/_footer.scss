@@ -1,0 +1,21 @@
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-secundario;
+    img{
+        height: 5vh;
+        width: 4vw;
+    }
+    @media (max-width: 768px) {
+
+        img{
+            height: 8vh;
+            width: 10vw;
+        }
+    }
+
+
+
+}

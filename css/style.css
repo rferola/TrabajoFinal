@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+.principal {
+  color: #744FC6; }
+
+.secundario1 {
+  color: #ac0048; }
+
+.secundario2 {
+  color: #16aa16; }
+
+header {
+  background-image: linear-gradient(to right, white, #e9f5f8); }
+  header nav {
+    background-color: #d2eedb; }
+    header nav a:hover {
+      background-color: rgba(48, 45, 45, 0.253); }
+    header nav li:hover {
+      background-color: rgba(48, 45, 45, 0.253); }
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2eedb; }
+  footer img {
+    height: 5vh;
+    width: 4vw; }
+  @media (max-width: 768px) {
+    footer img {
+      height: 8vh;
+      width: 10vw; } }
+
+main {
+  background-color: #e9f5f8; }
+  main h1 {
+    text-align: center;
+    font-family: "Meow Script", cursive;
+    font-size: 10vh;
+    color: #744FC6;
+    animation-duration: 3s;
+    animation-name: aparecer; }
+  main p {
+    font-size: 3vh;
+    color: #744FC6;
+    animation-duration: 3s;
+    animation-name: aparecer; }
+  main div img {
+    height: 60vh;
+    width: 60vw;
+    border-radius: 20px; }
+  main div iframe {
+    height: 30vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh; }
+  main div h2 {
+    text-align: center;
+    color: #744FC6; }
+  main div .achicar, main div .achicar2 {
+    border-radius: 30px; }
+  main div .achicar2 {
+    border: solid;
+    border-color: #30c54ea8; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  @media (max-width: 768px) {
+    main h1 {
+      font-size: 7vh; }
+    main p {
+      font-size: 2vh; } }
+
+main div div div div img {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 20px;
+  transition: 1s; }
+  main div div div div img:hover {
+    height: 44vh; }
+
+@media (max-width: 768px) {
+  div div div div img {
+    height: 30vh;
+    width: 90vw;
+    transition: 1s; }
+    div div div div img:hover {
+      height: 44vh; } }
+
+main div img {
+  height: 40vh; }
+
+@media (max-width: 768px) {
+  main div img {
+    height: 30vh; } }
+
+.pruebaGetMap {
+  color: #ac0048; }
+
+.pruebaGetMap2 {
+  color: #16aa16; }

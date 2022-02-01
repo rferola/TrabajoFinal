@@ -1,0 +1,11 @@
+$cambiarTexto: (
+    principal: $color-texto,
+    secundario1: rgb(172, 0, 72),
+    secundario2: rgb(22, 170, 22),
+
+);
+@each $frases, $color in $cambiarTexto{
+    .#{$frases}{
+        color:$color;
+    }
+}

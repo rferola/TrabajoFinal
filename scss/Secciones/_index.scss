@@ -1,0 +1,74 @@
+main {
+    background-color: $color-fondo;
+
+    h1 {
+        text-align: center;
+        font-family: $font-family;
+        font-size: 10vh;
+        color: $color-texto;
+        animation-duration: 3s;
+        animation-name: aparecer;
+
+    }
+
+    p {
+
+        font-size: 3vh;
+        color: $color-texto;
+        animation-duration: 3s;
+        animation-name: aparecer;
+
+    }
+
+    div {
+        img {
+            @include sizes(60vw, 60vh);  
+        }
+
+        iframe {
+            height: 30vh;
+            margin-top: 2vh;
+            margin-bottom: 5vh;
+        }
+
+        h2 {
+            text-align: center;
+
+            color: $color-texto;
+
+        }
+
+        .achicar {
+
+            border-radius: 30px;
+        }
+
+        .achicar2 {
+            @extend.achicar;
+            border: solid;
+            border-color: $color-primario;
+
+        }
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        h1 {
+            font-size: 7vh;
+        }
+
+        p {
+            font-size: 2vh;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+main{
+    div{
+        img{
+            height: 40vh;
+        }
+    }
+
+    @media (max-width: 768px) {
+        div{
+            img{
+                height: 30vh;
+    
+            }
+        }
+    }
+    
+}
