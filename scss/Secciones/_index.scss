@@ -1,16 +1,17 @@
 main {
-    background-color: $color-fondo;
+    background-image: url('/img/marmolOnix.jpg') ;
+     background-repeat: no-repeat;
+     background-size: cover;
 
-    h1 {
+    
+    h1{
         text-align: center;
-        font-family: $font-family;
+        font-family: $font-family2;
         font-size: 10vh;
-        color: $color-texto;
+        color: white;
         animation-duration: 3s;
         animation-name: aparecer;
-
     }
-
     p {
 
         font-size: 3vh;
@@ -33,9 +34,8 @@ main {
 
         h2 {
             text-align: center;
-
-            color: $color-texto;
-
+            color: white;
+            
         }
 
         .achicar {
@@ -45,9 +45,7 @@ main {
 
         .achicar2 {
             @extend.achicar;
-            border: solid;
-            border-color: $color-primario;
-
+          
         }
     }
 

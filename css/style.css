@@ -1,28 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Meow+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Meow+Script&family=Quintessential&family=Sanchez&display=swap");
 .principal {
-  color: #744FC6; }
+  color: #00000071; }
 
 .secundario1 {
-  color: #ac0048; }
+  color: #585353e1; }
 
 .secundario2 {
-  color: #16aa16; }
+  color: #000000ee; }
 
 header {
-  background-image: linear-gradient(to right, white, #e9f5f8); }
+  background-image: url("/img/marmolOnix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header h1 a {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    font-size: 10vh;
+    color: white;
+    animation-duration: 3s;
+    animation-name: aparecer; }
   header nav {
-    background-color: #d2eedb; }
-    header nav a:hover {
-      background-color: rgba(48, 45, 45, 0.253); }
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 20px; }
+    header nav a {
+      font-family: "Quintessential", cursive; }
+      header nav a:hover {
+        background-color: rgba(48, 45, 45, 0.253); }
     header nav li:hover {
       background-color: rgba(48, 45, 45, 0.253); }
+    header nav input {
+      font-family: "Quintessential", cursive; }
+    header nav button {
+      font-family: "Quintessential", cursive; }
 
 footer {
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d2eedb; }
+  background-color: #f5f3f3; }
   footer img {
     height: 5vh;
     width: 4vw; }
@@ -32,17 +51,19 @@ footer {
       width: 10vw; } }
 
 main {
-  background-color: #e9f5f8; }
+  background-image: url("/img/marmolOnix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
   main h1 {
     text-align: center;
-    font-family: "Meow Script", cursive;
+    font-family: "Cairo", sans-serif;
     font-size: 10vh;
-    color: #744FC6;
+    color: white;
     animation-duration: 3s;
     animation-name: aparecer; }
   main p {
     font-size: 3vh;
-    color: #744FC6;
+    color: #00000071;
     animation-duration: 3s;
     animation-name: aparecer; }
   main div img {
@@ -55,12 +76,9 @@ main {
     margin-bottom: 5vh; }
   main div h2 {
     text-align: center;
-    color: #744FC6; }
+    color: white; }
   main div .achicar, main div .achicar2 {
     border-radius: 30px; }
-  main div .achicar2 {
-    border: solid;
-    border-color: #30c54ea8; }
 
 @keyframes aparecer {
   0% {
@@ -97,7 +115,7 @@ main div img {
     height: 30vh; } }
 
 .pruebaGetMap {
-  color: #ac0048; }
+  color: #585353e1; }
 
 .pruebaGetMap2 {
-  color: #16aa16; }
+  color: #000000ee; }

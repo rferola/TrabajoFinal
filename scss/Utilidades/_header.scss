@@ -1,13 +1,27 @@
 header {
     
-    background-image: linear-gradient(to right, white, $color-fondo);
+    // background-image: linear-gradient(to right, white, $color-fondo);
+    background-image: url('/img/marmolOnix.jpg') ;
+    background-repeat: no-repeat;
+     background-size: cover;
+    h1{a{
+        text-align: center;
+        text-decoration: none;
+        font-family: $font-family2;
+        font-size: 10vh;
+        color: white;
+        animation-duration: 3s;
+        animation-name: aparecer;
+    }}
  
 
     nav {
         background-color: $color-secundario;
+        border-radius: 20px;
 
         a {
 
+           font-family: $font-family3;
             &:hover {
                 background-color: rgba(48, 45, 45, 0.253);
             }
@@ -18,6 +32,12 @@ header {
                 background-color: rgba(48, 45, 45, 0.253);
             }
         
+        }
+        input{
+            font-family: $font-family3;
+        }
+        button{
+            font-family: $font-family3;
         }
     }
 
