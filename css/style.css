@@ -11,7 +11,7 @@
   color: #000000ee; }
 
 header {
-  background-image: url("../img/marmoldeonix.PNG");
+  background-image: url("../img/marmolOnix.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   header h1 a {
@@ -22,6 +22,8 @@ header {
     color: white;
     animation-duration: 3s;
     animation-name: aparecer; }
+    header h1 a:hover {
+      color: rgba(48, 45, 45, 0.253); }
   header nav {
     background-color: rgba(255, 255, 255, 0.76);
     border-radius: 20px; }
@@ -61,6 +63,8 @@ main {
     color: white;
     animation-duration: 3s;
     animation-name: aparecer; }
+    main h1:hover {
+      color: rgba(48, 45, 45, 0.253); }
   main p {
     font-size: 3vh;
     color: #00000071;
@@ -76,7 +80,7 @@ main {
     margin-bottom: 5vh; }
   main div h2 {
     text-align: center;
-    color: white; }
+    color: rgba(48, 45, 45, 0.253); }
   main div .achicar, main div .achicar2 {
     border-radius: 30px; }
 

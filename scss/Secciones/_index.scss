@@ -1,5 +1,5 @@
 main {
-    background-image: url('/img/marmolOnix.jpg') ;
+    background-image: url('../img/marmolOnix.jpg') ;
      background-repeat: no-repeat;
      background-size: cover;
 
@@ -11,6 +11,10 @@ main {
         color: white;
         animation-duration: 3s;
         animation-name: aparecer;
+
+        &:hover {
+            color: rgba(48, 45, 45, 0.253);
+        }
     }
     p {
 
@@ -34,7 +38,8 @@ main {
 
         h2 {
             text-align: center;
-            color: white;
+            color: rgba(48, 45, 45, 0.253);
+            
             
         }
 
