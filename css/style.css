@@ -74,6 +74,9 @@ main {
     height: 60vh;
     width: 60vw;
     border-radius: 20px; }
+    main div img:hover {
+      border: solid;
+      border-color: antiquewhite; }
   main div iframe {
     height: 30vh;
     margin-top: 2vh;

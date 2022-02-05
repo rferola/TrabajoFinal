@@ -28,6 +28,11 @@ main {
     div {
         img {
             @include sizes(60vw, 60vh);  
+
+            &:hover {
+                border: solid;
+                border-color:antiquewhite;
+            }
         }
 
         iframe {
@@ -52,6 +57,7 @@ main {
             @extend.achicar;
           
         }
+        
     }
 
     @keyframes aparecer {
