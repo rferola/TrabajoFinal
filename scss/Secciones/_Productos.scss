@@ -25,50 +25,44 @@ main {
         }
     }
 
+    .mesa1 {
 
+        @media (max-width: 3000px) {
 
-    div {
-        div {
-            div {
-                div {
+            @include sizes(30vw, 35vh, 10px);
+            margin-bottom: 1vh;
+            margin-right: 1vw;
 
-                    .mesa1 {
+            transition: 1s;
 
-                        @media (max-width: 3000px) {
+            &:hover {
+                @include sizes(30vw, 40vh, 10px);
 
-                            @include sizes(30vw, 35vh, 10px);
-                            margin-bottom: 1vh;
-                            margin-right: 2vw;
-
-                            transition: 1s;
-
-                            &:hover {
-                                @include sizes(30vw, 40vh, 10px);
-
-                            }
-                        }
-
-                        @media (max-width: 578px) {
-                            @include sizes(42vw, 20vh, 10px);
-                            margin-right: 0vw;
-                        }
-
-                        @media (max-width: 768px) {
-                            margin-right: 0vw;
-
-                            &:hover {
-                                @include sizes(33vw, 40vh, 10px)
-                            }
-
-                        }
-
-
-
-
-
-                    }
-                }
             }
         }
+
+
+
+        @media (max-width: 768px) {
+            margin-right: 0vw;
+
+            &:hover {
+                @include sizes(33vw, 40vh, 10px)
+            }
+
+        }
+
+        @media (max-width: 578px) {
+            @include sizes(41vw, 20vh, 10px);
+
+            &:hover {
+                @include sizes(42vw, 25vh, 10px);
+                border: none;
+            }
+           
+            
+        }
+
+
     }
 }

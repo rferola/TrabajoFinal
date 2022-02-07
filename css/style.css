@@ -43,6 +43,9 @@ header {
       font-family: "Quintessential", cursive; }
 
 footer {
+  background-image: url("../img/placa 5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 10vh;
   display: flex;
   align-items: center;
@@ -140,32 +143,36 @@ main .textoProducto {
       margin-top: 8vh; } }
 
 @media (max-width: 3000px) {
-  main div div div div .mesa1 {
+  main .mesa1 {
     height: 35vh;
     width: 30vw;
     border-radius: 10px;
     margin-bottom: 1vh;
-    margin-right: 2vw;
+    margin-right: 1vw;
     transition: 1s; }
-    main div div div div .mesa1:hover {
+    main .mesa1:hover {
       height: 40vh;
       width: 30vw;
       border-radius: 10px; } }
 
-@media (max-width: 578px) {
-  main div div div div .mesa1 {
-    height: 20vh;
-    width: 42vw;
-    border-radius: 10px;
-    margin-right: 0vw; } }
-
 @media (max-width: 768px) {
-  main div div div div .mesa1 {
+  main .mesa1 {
     margin-right: 0vw; }
-    main div div div div .mesa1:hover {
+    main .mesa1:hover {
       height: 40vh;
       width: 33vw;
       border-radius: 10px; } }
+
+@media (max-width: 578px) {
+  main .mesa1 {
+    height: 20vh;
+    width: 41vw;
+    border-radius: 10px; }
+    main .mesa1:hover {
+      height: 25vh;
+      width: 42vw;
+      border-radius: 10px;
+      border: none; } }
 
 @media (max-width: 425px) {
   main .tituloEmpresa {
