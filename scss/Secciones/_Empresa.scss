@@ -1,17 +1,73 @@
-main{
-    div{
-        img{
-            height: 40vh;
+main {
+
+    .tituloEmpresa {
+
+        @media (max-width: 425px) {
+            font-size: 5vh;
         }
+
+    }
+    .carruselEmpresa{
+
+        height: 80vh;
+        margin-top: 3vh;
     }
 
-    @media (max-width: 768px) {
-        div{
-            img{
-                height: 30vh;
-    
-            }
+
+    .textoEmpresa {
+        height: 50vh;
+
+        @media (max-width: 425px) {
+            font-size: 2.5vh;
+            height: 60vh;
         }
+        @media (max-width: 768px) {
+            height: 60vh;
+        }
+
     }
-    
+    .desaparecer{
+
+        @media (max-width: 425px) {
+           display: none;
+        }
+
+
+    }
+
+    .textoSecundario {
+
+        height: 70vh;
+
+        @media (max-width: 768px) {
+            height: 20vh;
+        }
+
+        @media (max-width: 425px) {
+          height: 40vh;
+        }
+
+    }
+
+    .fotoMarmolera {
+
+        @include sizes(20vw, 40vh, 0px);
+        margin-left: 2vw;
+
+        @media (max-width: 768px) {
+            @include sizes(40vw, 40vh, 0px);
+            margin-left: 32vw;
+            margin-bottom: 5vh;
+        }
+
+        @media (max-width: 425px) {
+            @include sizes(70vw, 30vh, 0px);
+            margin-left: 20vw;
+            margin-bottom: 5vh;
+        }
+
+    }
+
+
+
 }

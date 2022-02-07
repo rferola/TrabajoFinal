@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Meow+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Meow+Script&family=Quintessential&family=Sanchez&display=swap");
@@ -24,6 +25,9 @@ header {
     animation-name: aparecer; }
     header h1 a:hover {
       color: rgba(48, 45, 45, 0.253); }
+    @media (max-width: 751px) {
+      header h1 a {
+        font-size: 6vh; } }
   header nav {
     background-color: rgba(255, 255, 255, 0.76);
     border-radius: 20px; }
@@ -41,16 +45,35 @@ header {
 footer {
   height: 10vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #f5f3f3; }
+  footer p {
+    margin-left: 1vw;
+    margin-right: 20vw; }
+    @media (max-width: 587px) {
+      footer p {
+        font-size: 1.5vh; } }
   footer img {
-    height: 5vh;
-    width: 4vw; }
-  @media (max-width: 768px) {
-    footer img {
-      height: 8vh;
-      width: 10vw; } }
+    height: 4vh;
+    width: 3vw;
+    border-radius: 0px;
+    margin-right: 1vw; }
+    @media (max-width: 768px) {
+      footer img {
+        height: 6vh;
+        width: 8vw;
+        border-radius: 0px;
+        margin-right: 1vw; } }
+    @media (max-width: 587px) {
+      footer img {
+        height: 4vh;
+        width: 7vw;
+        border-radius: 5px;
+        margin-right: 1vw; } }
+    footer img:hover {
+      border: solid;
+      border-width: 0.5px;
+      border-color: #9bcfff; }
 
 main {
   background-image: url("../img/marmolOnix.jpg");
@@ -65,20 +88,27 @@ main {
     animation-name: aparecer; }
     main h1:hover {
       color: rgba(48, 45, 45, 0.253); }
+    @media (max-width: 751px) {
+      main h1 {
+        font-size: 7vh; } }
   main p {
     font-size: 3vh;
     color: #00000071;
     animation-duration: 3s;
-    animation-name: aparecer; }
-  main div img {
-    height: 60vh;
-    width: 60vw;
-    border-radius: 20px; }
-    main div img:hover {
+    animation-name: aparecer;
+    height: 40vh; }
+    @media (max-width: 751px) {
+      main p {
+        font-size: 2.5vh;
+        height: 70vh; } }
+  main div div div img {
+    height: 70vh;
+    margin-bottom: 10vh; }
+    main div div div img:hover {
       border: solid;
       border-color: antiquewhite; }
   main div iframe {
-    height: 30vh;
+    height: 40vh;
     margin-top: 2vh;
     margin-bottom: 5vh; }
   main div h2 {
@@ -92,37 +122,125 @@ main {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@media (max-width: 578px) {
+  main .tituloProducto {
+    font-size: 5vh;
+    padding-top: 3vh; } }
+
+main .textoProducto {
+  margin-top: 10vh;
+  height: 30vh; }
   @media (max-width: 768px) {
-    main h1 {
-      font-size: 7vh; }
-    main p {
-      font-size: 2vh; } }
+    main .textoProducto {
+      font-size: 3vh; } }
+  @media (max-width: 578px) {
+    main .textoProducto {
+      font-size: 2vh;
+      margin-top: 8vh; } }
 
-main div div div div img {
-  height: 30vh;
-  width: 30vw;
-  border-radius: 20px;
-  transition: 1s; }
-  main div div div div img:hover {
-    height: 44vh; }
-
-@media (max-width: 768px) {
-  div div div div img {
-    height: 30vh;
-    width: 90vw;
+@media (max-width: 3000px) {
+  main div div div div .mesa1 {
+    height: 35vh;
+    width: 30vw;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+    margin-right: 2vw;
     transition: 1s; }
-    div div div div img:hover {
-      height: 44vh; } }
+    main div div div div .mesa1:hover {
+      height: 40vh;
+      width: 30vw;
+      border-radius: 10px; } }
 
-main div img {
-  height: 40vh; }
+@media (max-width: 578px) {
+  main div div div div .mesa1 {
+    height: 20vh;
+    width: 42vw;
+    border-radius: 10px;
+    margin-right: 0vw; } }
 
 @media (max-width: 768px) {
-  main div img {
-    height: 30vh; } }
+  main div div div div .mesa1 {
+    margin-right: 0vw; }
+    main div div div div .mesa1:hover {
+      height: 40vh;
+      width: 33vw;
+      border-radius: 10px; } }
+
+@media (max-width: 425px) {
+  main .tituloEmpresa {
+    font-size: 5vh; } }
+
+main .carruselEmpresa {
+  height: 80vh;
+  margin-top: 3vh; }
+
+main .textoEmpresa {
+  height: 50vh; }
+  @media (max-width: 425px) {
+    main .textoEmpresa {
+      font-size: 2.5vh;
+      height: 60vh; } }
+  @media (max-width: 768px) {
+    main .textoEmpresa {
+      height: 60vh; } }
+
+@media (max-width: 425px) {
+  main .desaparecer {
+    display: none; } }
+
+main .textoSecundario {
+  height: 70vh; }
+  @media (max-width: 768px) {
+    main .textoSecundario {
+      height: 20vh; } }
+  @media (max-width: 425px) {
+    main .textoSecundario {
+      height: 40vh; } }
+
+main .fotoMarmolera {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 0px;
+  margin-left: 2vw; }
+  @media (max-width: 768px) {
+    main .fotoMarmolera {
+      height: 40vh;
+      width: 40vw;
+      border-radius: 0px;
+      margin-left: 32vw;
+      margin-bottom: 5vh; } }
+  @media (max-width: 425px) {
+    main .fotoMarmolera {
+      height: 30vh;
+      width: 70vw;
+      border-radius: 0px;
+      margin-left: 20vw;
+      margin-bottom: 5vh; } }
+
+@media (max-width: 580px) {
+  main .tituloMercado {
+    font-size: 5vh; } }
+
+main .imagenCard {
+  height: 20vh; }
+
+main .tamañoCard {
+  height: 75vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh; }
+  main .tamañoCard:hover {
+    border: solid;
+    border-color: #9bcfff; }
+
+main .textoCard {
+  height: 15vh; }
 
 .pruebaGetMap {
   color: #585353e1; }
 
 .pruebaGetMap2 {
   color: #000000ee; }
+
+.textoContacto {
+  height: 5vh; }

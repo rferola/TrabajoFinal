@@ -60,7 +60,7 @@
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -71,20 +71,20 @@
     <main class="containier-fluid col-12">
 
         <h1
-            class="row col-10 offset-1 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-center d-flex justify-content-center fst-italic">
+            class="row col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center d-flex justify-content-center fst-italic tituloEmpresa">
             Conoce un poco más de nosotros!</h1>
 
         <div id="carouselExampleFade"
             class="carousel slide carousel-fade row col-md-10 offset-md-1 col-lg-6 offset-lg-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner carruselEmpresa">
                 <div class="carousel-item active">
-                    <img src="./img/familia.jpg" class="d-block w-100 altura rounded" alt="Mesa 1">
+                    <img src="./img/familia.jpg" class="d-block w-100 altura rounded carruselEmpresa" alt="Mesa 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/marmolera.jpg.jfif" class="d-block w-100 altura rounded" alt="Mesa 2">
+                    <img src="img/marmolera.jpg.jfif" class="d-block w-100 rounded carruselEmpresa" alt="Mesa 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/marmolero.jpg" class="d-block w-100 altura rounded" alt="Mesa 3">
+                    <img src="./img/marmolero.jpg" class="d-block w-100 altura rounded carruselEmpresa" alt="Mesa 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -99,28 +99,25 @@
             </button>
         </div>
 
-        <p class="row col-10 offset-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2  text-center d-flex justify-content-center fst-italic principal"
-            style="--bs-text-opacity: .5;"> <em> Somos una empresa dedida a la fabriación y venta de mesas para el
-                hogar,
-                utilizando
-                mármol como tapa y combinandolas con distintas estructuras.
-                tenemos más de 20 años de experiencia y nuestros clientes son los más satisfechos del mercado.
+        <p class="textoEmpresa row col-10 offset-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1  text-center d-flex justify-content-center fst-italic principal"
+            style="--bs-text-opacity: .5;"> <em> Somos una empresa dedicada a la fabriación y venta de mesas para el
+                hogar.</em> <em class="desaparecer"> Utilizamos mármol como tapa y las combinamos con distintas estructuras.            tenemos más de 20 años de experiencia y nuestros clientes son los más satisfechos del mercado.
                 Ofrecermos una gran variedad de mármoles, pudiendo combinar cada tapa de mesa con una estructura de
-                hierro o madera, las cuales también vienen en distintas formas. La empresa es una empresa familiar, que
+                hierro o madera, las cuales también vienen en distintas formas.</em> <em> La empresa es una empresa familiar, que
                 lleva 3 generaciones dentro del rubro de la marmolería. El quipo se enuentra formado hoy por Gabriel, el
                 marmolero principal, y Eugenia, la diseñadora y encargda de manejar el resto de los rubros
             </em></p>
         <br>
         <div class="row">
-            <img src="./img/marmolero.jpg" alt="gabriel" class="col-10 offset-1 col-md-8 offset-md-2 col-lg-3 offset-lg-0 rounded-pill">
-            <p class="col-lg-3 text-center secundario1">Descripción de Gabril, el marmolero Lorem, ipsum dolor sit amet consectetur
+            <img src="./img/marmolero.jpg" alt="gabriel" class="fotoMarmolera col-10 offset-1 col-md-8 offset-md-2 col-lg-3 offset-lg-0 rounded-pill">
+            <p class="col-lg-3 text-center textoSecundario">Descripción de Gabril, el marmolero Lorem, ipsum dolor sit amet consectetur
                 adipisicing
                 elit. Veniam similique incidunt fugiat porro corporis possimus veritatis culpa fuga aliquid. Aut
                 animi
                 dolor, nostrum voluptatem provident accusantium quae pariatur esse dolores!</p>
 
-            <img src="./img/marmolera.jpg.jfif" alt="juge" class=" col-10 offset-1 col-md-8 offset-md-2 col-lg-3 offset-lg-0 rounded-pill">
-            <p class="col-lg-3 text-center secundario2">Descripción de Eugenia, la marolera Lorem, ipsum dolor sit amet consectetur
+            <img src="./img/marmolera.jpg.jfif" alt="juge" class=" fotoMarmolera col-10 offset-1 col-md-8 offset-md-2 col-lg-3 offset-lg-0 rounded-pill">
+            <p class="col-lg-3 text-center textoSecundario">Descripción de Eugenia, la marolera Lorem, ipsum dolor sit amet consectetur
                 adipisicing
                 elit. Iste asperiores laboriosam minus architecto amet accusamus id dicta reiciendis explicabo,
                 saepe
@@ -132,11 +129,12 @@
     </main>
 
     <footer class="d-flex justify-content-center ">
-        <a href="https://web.whatsapp.com/" class=""><img src="./img/whatsapp_icon_138013.png" alt="whatsapp"
-                class="tamaño"></a>
-        <a href="https://www.facebook.com/" class=""><img src="./img/facebook.png" alt="facebook" class="tamaño2"></a>
-        <a href="https://twitter.com/" class=""><img src="./img/twitter.png" alt="twitter" class="tamaño"></a>
-        <a href="https://ar.pinterest.com/" class=""><img src="./img/pinteres.png" alt="pinterest" class="tamaño2"></a>
+        <p>	© Copyright 2022. Todos los derechos reservados.</p>
+        <a href="https://web.whatsapp.com/"><img src="./img/whatssap.jpg" alt="whatsapp"
+                class=""></a>
+        <a href="https://www.facebook.com/" class=""><img src="./img/facebook.jpg" alt="facebook" class=""></a>
+        <a href="https://twitter.com/" class=""><img src="./img/instagram.jpg" alt="twitter" class=""></a>
+        <a href="https://ar.pinterest.com/" class=""><img src="./img/twitter.jpg" alt="pinterest" class=""></a>
     </footer>
 
     <!-- Script de bootsrap JS -->

@@ -1,0 +1,29 @@
+main {
+
+
+    .tituloMercado {
+        @media (max-width:580px) {
+            font-size: 5vh;
+           
+        }
+    }
+
+    .imagenCard {
+        height: 20vh;
+    }
+
+    .tamañoCard {
+        height: 75vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+
+        &:hover{
+            border: solid;
+            border-color: $color-hover ;
+        }
+    }
+
+    .textoCard {
+        height: 15vh;
+    }
+}

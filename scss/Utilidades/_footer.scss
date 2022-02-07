@@ -1,21 +1,42 @@
-footer{
+footer {
     height: 10vh;
     display: flex;
-    justify-content: center;
+
     align-items: center;
     background-color: $color-footer;
-    img{
-        height: 5vh;
-        width: 4vw;
-    }
-    @media (max-width: 768px) {
 
-        img{
-            height: 8vh;
-            width: 10vw;
+    p {
+        margin-left: 1vw;
+        margin-right: 20vw;
+
+        @media (max-width: 587px) {
+            font-size: 1.5vh;
         }
     }
 
 
+    img {
+        @include sizes(3vw, 4vh, 0px);
+        margin-right: 1vw;
 
+        @media (max-width: 768px) {
+
+            @include sizes(8vw, 6vh, 0px);
+            margin-right: 1vw;
+        }
+
+        @media (max-width: 587px) {
+            @include sizes(7vw, 4vh, 5px);
+
+             margin-right: 1vw;
+        }
+
+        &:hover{
+            border: solid;
+            border-width: 0.5px;
+            border-color: $color-hover;
+        }
+        
+
+    }
 }

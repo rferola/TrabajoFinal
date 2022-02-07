@@ -1,5 +1,5 @@
-@mixin sizes($width, $height) {
+@mixin sizes($width, $height,$radius) {
     height: $height;
     width: $width;
-    border-radius: 20px;
+    border-radius: $radius;
 }

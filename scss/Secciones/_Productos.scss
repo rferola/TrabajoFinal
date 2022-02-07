@@ -1,5 +1,29 @@
 main {
 
+    .tituloProducto {
+
+        @media (max-width: 578px) {
+            font-size: 5vh;
+            padding-top: 3vh;
+        }
+
+
+    }
+
+    .textoProducto {
+        margin-top: 10vh;
+        height: 30vh;
+
+        @media (max-width: 768px) {
+            font-size: 3vh;
+
+        }
+
+        @media (max-width: 578px) {
+            font-size: 2vh;
+            margin-top: 8vh;
+        }
+    }
 
 
 
@@ -8,41 +32,43 @@ main {
             div {
                 div {
 
-                    img {
+                    .mesa1 {
 
-                        @include sizes(30vw, 30vh);
-                        transition: 1s;
-                        &:hover {
-                            height: 44vh;
+                        @media (max-width: 3000px) {
+
+                            @include sizes(30vw, 35vh, 10px);
+                            margin-bottom: 1vh;
+                            margin-right: 2vw;
+
+                            transition: 1s;
+
+                            &:hover {
+                                @include sizes(30vw, 40vh, 10px);
+
+                            }
+                        }
+
+                        @media (max-width: 578px) {
+                            @include sizes(42vw, 20vh, 10px);
+                            margin-right: 0vw;
+                        }
+
+                        @media (max-width: 768px) {
+                            margin-right: 0vw;
+
+                            &:hover {
+                                @include sizes(33vw, 40vh, 10px)
+                            }
 
                         }
+
+
+
+
+
                     }
                 }
             }
         }
     }
 }
-
-@media (max-width: 768px) {
-
-    div {
-        div {
-            div {
-                div {
-
-                    img {
-                        height: 30vh;
-                        width: 90vw;
-                        transition: 1s;
-
-                        &:hover {
-                            height: 44vh;
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
